@@ -1,0 +1,49 @@
+Running ./run-top++.sh sigma-results/LHC7000-NNLO+NNLL-NNPDF23_nnlo_as_0124.cfg
+=====================================================================
+=                                                                   =
+=                         Top++ version 2.0                         =
+=                                                                   =
+=       Program for the calculation of the inclusive top pair       =
+=           production cross-section at hadron colliders            =
+=                                                                   =
+=            Authors: Michal Czakon and Alexander Mitov             =
+=                                                                   =
+=====================================================================
+
+initPDFSetByName: NNPDF23_nnlo_as_0124
+LHAPDF 6.1.5 loading /Users/gsalam/software/HEP-software/install/lhapdf-6.1.5/share/LHAPDF/NNPDF23_nnlo_as_0124/NNPDF23_nnlo_as_0124_0000.dat
+NNPDF23_nnlo_as_0124 PDF set, member #0, version 6; LHAPDF ID = 233200
+................. PDF initialized (it took 0 [sec.]).
+
+Initializing fluxes and alpha_s for pdf member 0 ...
+
+alpha_s(mZ=91.1876)=0.124003
+alpha_s(muR=173.2)=0.112606
+
+.............. Fluxes initialized (it took 17 [sec.]).
+
+
+Initializing Fixed Order ...
+......... Fixed Order initialized (it took 0 [sec.]).
+
+Initializing the subtraction fluxes ... 
+...... Subtraction Fluxes initialized (it took 0 [sec.]).
+
+Initializing resummation ... 
+...... Resummation initialization done (it took 0 [sec.]).
+
+
+Computing the cross-section:
+
+m_top=173.2, muF=1, muR=1, sigma_tot=195.234 [pb].
+
+......... Cross-section computed! (it took 159 [sec.]).
+
+****************    Final result (scale variation):   ****************
+
+ sigma_tot = 195.234 + 0 (0 %) - 0 (0 %) [pb].
+**********************************************************************
+
+
+	Total time used: 176 [sec.].
+

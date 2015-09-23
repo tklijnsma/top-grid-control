@@ -1,0 +1,4 @@
+Inside this directory, do:
+git clone https://github.com/jpata/grid-control.git
+cd grid-control
+git checkout from-svn
